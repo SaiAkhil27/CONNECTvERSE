@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="Css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+ 
+  <body>
+   <div class="container">
+    <div class="login-box">
+      <h1>Login</h1>
+      <form>
+        <label>Email</label>
+        <input type="email" placeholder="Enter your Email"  id = "username"/>
+        <label>Password</label>
+        <input type="password" placeholder="Enter your Password" id="password" />
+        <input type="button" value="Submit" onclick="func()" />
+      </form>
+    </div>
+    <p class="para-2">
+      Not have an account? <a href="signup.html">Sign Up Here</a>
+    </p>
+  </div>
+  </body>
+  <script>
+    function func(){
+     var email = document.getElementById("username").value;
+     var pass = document.getElementById("password").value;
+     if (email == 'amansingh@gmail.com' && pass == '123456'){
+
+        window.location.assign("index1.html")
+
+     }else if (email == 'saiakhil@gmail.com' && pass == '123456'){
+      window.location.assign("index.html")
+
+     }else if (email == 'yashnamdev@gmail.com' && pass == '123456'){
+      window.location.assign("index2.html")
+      
+     }
+     else {
+        alert("invalid id");
+     }
+    }
+    
+  </script>
+</html>

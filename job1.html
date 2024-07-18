@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ConnectVerse</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+
+<div class="navbar-left">
+  <a href="index1.html" class="logo"><img src="images/logo.jpg" class="logoimg"></a>
+
+  <div class="search-box">
+    <input type="text" placeholder="Search" name="" id="">
+  </div>
+
+</div>
+
+<div class="navbar-center">
+
+
+  <ul>
+    <li>
+      <a href="index1.html"><img src="images/home.png" class="home"><span>Home</span></a>
+    </li>
+    <li>
+      <a href="#"><img src="images/Jobs.png" class="jobs"><span>Network</span></a>
+    </li><li>
+      <a href="#"><img src="images/network.png" class="network"><span>Jobs</span></a>
+    </li><li>
+      <a href="#"><img src="images/messaging.png" class="messaging"><span>InterPrep</span></a>
+    </li><li>
+      <a href="#"><img src="images/notifications.png" class="notifications"><span>notifications</span></a>
+    </li>
+  </ul>
+
+</div>
+<div class="navbar-rigth">
+<div class="online"><img src="images/aman.jpg" class="nav-profile-img" onclick="toggleMenu()">
+</div>
+
+
+</div>
+
+<!-----Profile dropdown menu----------->
+<div class="profile-menu-wrap" id="profileMenu">
+  <div class="profile-menu">
+    <div class="user-info">
+      <img src="images/aman.jpg" >
+      <div>
+        <h3>Aman Singh</h3>
+         <a href="profile.html">See your profile</a>
+      </div>
+    </div>
+<hr>
+<a href="#" class="profile-menu-link">
+  <img src="" >
+  <p>Give Feedback</p>
+  <span>></span>
+</a>
+
+<a href="#" class="profile-menu-link">
+  <img src="" >
+  <p>Settings and Privacy</p>
+  <span>></span>
+</a>
+
+<a href="#" class="profile-menu-link">
+  <img src="" >
+  <p>Help & Support</p>
+  <span>></span>
+</a>
+
+<a href="#" class="profile-menu-link">
+  <img src="" >
+  <p>Display & Accessiblity</p>
+  <span>></span>
+</a>
+
+<a href="login.html" class="profile-menu-link">
+  <img src="" >
+  <p>LogOut</p>
+  <span>></span>
+</a>
+
+  </div>
+</div>
+
+
+
+
+</nav>
+
+<!---------------navbar close----------->
+
+
+
+<!-----Jobs Section-->
+
+<div class="container">
+
+  <h1>Jobs Section</h1>
+<hr>
+  <div class="jobs-main">
+ 
+ <div class="job-row">
+  <img src="images/delloite.png" >
+  <div>
+    <h3>Deloitte</h3>
+    <B>Role &middot; Front-End Developer</B>
+    <b>Experience &middot;Fresher</b>
+    <b>Skills Required &middot; React or Next js</b>
+    <p>A Front-End Developer is responsible for developing new
+      user-facing features, determining the structure and design
+       of web pages, building reusable codes,
+       optimizing page loading times, and using a
+        variety of markup languages to create the web pages.</p>
+ 
+
+        <div class="">
+          <a href="https://jobsindia.deloitte.com/" target=”_blank”>Apply</a>
+          <a href="#" > >save</a>
+        </div>
+  </div>
+  
+ </div>  
+
+ <hr>
+
+ <div class="job-row">
+  <img src="images/meta.png" >
+  <div>
+    <h3>META</h3>
+    <B>Role &middot; Associate Software Developer</B>
+    <b>Experience &middot;2-3 Years</b>
+    <b>Skills Required &middot; Any programming Language with DSA</b>
+    <p>As an associate software developer, you assist senior 
+      software developers with the programming and development of computer
+       software. Your job duties include writing software code in various programming
+        languages, troubleshooting issues with software applications,
+       and performing unit testing of software components.</p>
+ 
+
+        <div class="">
+          <a href="#" class="Apply">Apply</a>
+          <a href="#" class="save"> >save</a>
+        </div>
+  </div>
+  
+ </div>
+ <hr>
+
+ <div class="job-row">
+  <img src="images/gsk.png" >
+  <div>
+    <h3>GSK</h3>
+    <B>Role &middot; Associate Software Developer</B>
+    <b>Experience &middot;0-1 Years</b>
+    <b>Skills Required &middot; Any programming Language with DSA</b>
+    <p>As an associate software developer, you assist senior 
+      software developers with the programming and development of computer
+       software. Your job duties include writing software code in various programming
+        languages, troubleshooting issues with software applications,
+       and performing unit testing of software components.</p>
+ 
+
+        <div class="">
+          <a href="#">Apply</a>
+          <a href="#" class="save"> >save</a>
+        </div>
+  </div>
+  
+ </div>
+ <hr>
+
+
+ <div class="job-row">
+  <img src="images/amazon.png" >
+  <div>
+    <h3>Amazon</h3>
+    <B>Role &middot; Associate Software Developer</B>
+    <b>Experience &middot;2-3 Years</b>
+    <b>Skills Required &middot; Any programming Language with DSA</b>
+    <p>As an associate software developer, you assist senior 
+      software developers with the programming and development of computer
+       software. Your job duties include writing software code in various programming
+        languages, troubleshooting issues with software applications,
+       and performing unit testing of software components.</p>
+
+       <p>Apply in Amazon carrers portal-- <a href="#">CLICK HERE</a></p>
+ 
+
+        <div class="">
+          <a href="#">Apply</a>
+          <a href="#" class="save"> >save</a>
+        </div>
+  </div>
+  
+ </div>
+ <hr>
+
+
+  </div>
+  
+</div>
+
+
+
+
+
+
+
+  <!------------------profile side bar------------->
+  
+
+  <script>
+    let apply = document.querySelector(".Apply");
+
+
+    let profileMenu = document.getElementById("profileMenu");
+    function toggleMenu(){
+      profileMenu.classList.toggle("open-menu");
+    }
+
+
+apply.addEventListener("onclick",function(){
+  apply.innerText ="Applied";
+})
+  
+  </script>
+
+
+
+
+</body>
+
+
+
+
+</html>
